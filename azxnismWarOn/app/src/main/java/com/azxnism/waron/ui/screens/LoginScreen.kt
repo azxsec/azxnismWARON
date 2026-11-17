@@ -9,6 +9,7 @@ import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
 import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -204,7 +205,8 @@ fun LoginScreen(
                         colors = ButtonDefaults.outlinedButtonColors(
                             contentColor = TextPrimary
                         ),
-                        border = ButtonDefaults.outlinedButtonBorder.copy(
+                        border = BorderStroke(
+                            width = 1.dp,
                             brush = Brush.horizontalGradient(
                                 colors = listOf(Cyan600, Cyan400)
                             )
