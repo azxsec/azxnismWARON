@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary -->
+    <color name="cyan_primary">#FF00BCD4</color>
+    <color name="cyan_dark">#FF0097A7</color>
+    <color name="cyan_light">#FF26C6DA</color>
+
+    <!-- Surfaces -->
+    <color name="dark_background">#FF010409</color>
+    <color name="dark_surface">#FF0D1117</color>
+    <color name="dark_card">#FF161B22</color>
+    <color name="dark_border">#FF30363D</color>
+
+    <!-- Severity -->
+    <color name="severity_critical">#FFFF1744</color>
+    <color name="severity_high">#FFF85149</color>
+    <color name="severity_medium">#FFD29922</color>
+    <color name="severity_low">#FF3FB950</color>
+    <color name="severity_info">#FF58A6FF</color>
+
+    <!-- Accents -->
+    <color name="accent_green">#FF3FB950</color>
+    <color name="accent_red">#FFF85149</color>
+    <color name="accent_yellow">#FFD29922</color>
+    <color name="accent_blue">#FF58A6FF</color>
+    <color name="accent_purple">#FFA371F7</color>
+</resources>
